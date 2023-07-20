@@ -1,0 +1,48 @@
+.b{
+    background-image: url(https://png.pngtree.com/background/20210711/original/pngtree-vintage-coffee-poster-background-material-picture-image_1104378.jpg);
+}
+.container {
+  width: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid brown;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    input[type="number"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    input[type="submit"] {
+      width: 100%;
+      padding: 10px;
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+.h
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+   

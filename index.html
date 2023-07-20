@@ -1,0 +1,194 @@
+<html>
+<head>
+<title>THE CAFE</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <div class="pill-nav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
+    <header class="bgimg">
+          <center><img src="clogo2.jpg" width="300" height="300"></center>
+          <p class="a" style="background-image: url(https://img.freepik.com/free-vector/restaurant-mural-wallpaper_52683-47493.jpg);">THE<br>COFFEE SHOP</p>
+          <br>
+    </header>
+    <marquee class="u" behavior="scroll" direction="left" scrollamount="20" hspace="50px" vspace="20px" background-color="orange">DISCOVER WHAT'S NEW AT COFFEE SHOP!</marquee>
+    <h2 class="b"><b>ABOUT US</b></h2>
+    <p class="c">The Cafe was founded in blabla by Mr. Smith.In addition to our full espresso and brew bar menu,we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff."The Coffee Shop is India's largest chain of coffee shops. Popularly known as Coffee Shop, it's a favourite hangout among all age groups for sit-downs, conversations, short meetings, get-togethers and mainly a whole lot of fun over steaming cups of coffee. Coffee Shop offers world-class hot and cold coffee brews, and a wide range of delicious refreshers, snacks, sandwiches, buns, pastries, cakes, sundaes, desserts and more."</p>
+    <div class="slideshow-container">
+
+        
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="cafe.jpeg" style="width:100%">
+          <div class="text">Good Ambience</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="c2.jpg" style="width:100%">
+          <div class="text">Taste the world's best coco</div>
+        </div>
+      
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="c4.jpeg" style="width:100%">
+          <div class="text">Best coffaine</div>
+        </div>
+      
+        
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br>
+      
+      
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+      <script>
+      let slideIndex = 1;
+showSlides(slideIndex);
+
+// Next/previous controls
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+// Thumbnail image controls
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+<center><h1 class="e"><B>OUR CLASSICS</B></h1></center>
+<div class="q">
+<div class="w">
+  <a target="_blank" href="cappucino.jpg">
+      <img src="cappucino.jpg" width="250" height="250">
+  </a>
+  <center><p><i>CAPPUCINO</i></p></center>
+</div>
+<div class="w">
+  <a target="_blank" href="cold.jpg">
+      <img src="cold.jpg" width="250" height="250">
+  </a>
+  <center><p><i>COLD COFFEE</i></p></center>
+</div>
+<div class="w">
+  <a target="_blank" href="l2.jpg">
+    <img src="l2.jpg" width="250" height="250">
+  </a>
+  <center><p><i>LEMON GREEN COFFEE</i></p></center>
+</div>
+<div class="w">
+  <a target="_blank" href="filter.jpg">
+    <img src="filter.jpg" width="250" height="250">
+  </a>
+  <center><p><i>FILTER COFFEE</i></p></center>
+</div>
+<div class="w">
+  <a target="_blank" href="honeyc.jpg">
+    <img src="honeyc.jpg" width="250" height="250">
+  </a>
+  <center><p><i>HONEY CINNAMON COFFEE</i></p></center>
+</div>
+</div>
+
+<div clas="parallax">
+<p class="v1"><b>START YOUR DAY FRESH</b></p>
+<div>
+  <a href="login.html">
+<button class="button"><span>Register Here! </span></button>
+</a>
+</div>
+<div class="h">
+  <div class="g">
+    <h1 class="l">Isn't the smell of coffee is the healer?</h1>
+    <p class="l1">Peace.Love.Coffee</p>
+    <button class="l2">SHOP NOW</button>
+  </div>
+</div>
+<div class="video-container">
+  <video src="cvdo2.mp4" height="600" width="1500" loop autoplay muted>
+
+  </video>
+  </div>
+  
+  <div class="s">
+    <h2 class="s2">The Art and Science of Sampling Coffee</h2>
+    <p class="s3">Explore the world of coffee sampling at The Coffee Shop and uncover the art and science behind creating the perfect cup </p>
+      <div>
+      <a href="art.html">
+      <button class="s4"><span>LEARN MORE</span></button>
+    </a>
+    </div>
+  </div>
+  </div>
+  
+
+<h1 class="t"><b>CAFE LOCATION</b></h1>
+<center><map class="m">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248849.90089970882!2d77.46612549485897!3d12.953945613736225!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670c9b44e6d%3A0xf8dfc3e8517e4fe0!2sBengaluru%2C%20Karnataka!5e0!3m2!1sen!2sin!4v1687714164674!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</map></center>
+<hr>
+<div id="main">
+  <div><b>QUICK LINKS</b>
+          <ul>
+            <li>CAFE MENU</li>
+            <li>CAFE LOCATOR</li>
+            <li>CUSTOMER CARE</li>
+          </ul></div>
+  <div><b>SHOP</b>
+       <ul>
+        <li>Coffee Mugs</li>
+        <li>Coffee Makers</li>
+        <li>Coffee Powder</li>
+       </ul></div>  
+  <div><b>Business</b>
+       <ul>
+        <li>Advertise with us</li>
+        <li>Coffee Vendoer Machine</li>
+        <li>Contact Us</li>
+       </ul></div>
+  <div><b>ABOUT US</b>
+       <ul>
+        <li>Awards</li>
+        <li>News & Events</li>
+        <li>Careers</li>
+       </ul></div>
+</div>
+<hr>
+<footer class="i">
+  
+  <p><a>@The Coffee Shop. All rights reserved.</a></p>
+</footer>
+
+</body>
+</html>
